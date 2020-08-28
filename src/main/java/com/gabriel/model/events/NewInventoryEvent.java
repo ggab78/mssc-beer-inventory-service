@@ -1,4 +1,4 @@
-package com.gabriel.beerservice.events;
+package com.gabriel.model.events;
 
 import lombok.NoArgsConstructor;
 

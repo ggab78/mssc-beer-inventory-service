@@ -1,4 +1,4 @@
-package com.gabriel.beerservice.events;
+package com.gabriel.model.events;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

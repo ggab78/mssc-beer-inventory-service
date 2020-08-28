@@ -2,7 +2,7 @@ package com.gabriel.beerservice.services;
 
 
 import com.gabriel.beerservice.domain.BeerInventory;
-import com.gabriel.beerservice.events.NewInventoryEvent;
+import com.gabriel.model.events.NewInventoryEvent;
 import com.gabriel.beerservice.config.JmsConfig;
 import com.gabriel.beerservice.repositories.BeerInventoryRepository;
 import lombok.RequiredArgsConstructor;

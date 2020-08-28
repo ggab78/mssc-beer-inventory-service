@@ -2,7 +2,7 @@ package com.gabriel.beerservice.web.controllers;
 
 import com.gabriel.beerservice.repositories.BeerInventoryRepository;
 import com.gabriel.beerservice.web.mappers.BeerInventoryMapper;
-import com.gabriel.beerservice.web.model.BeerInventoryDto;
+import com.gabriel.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

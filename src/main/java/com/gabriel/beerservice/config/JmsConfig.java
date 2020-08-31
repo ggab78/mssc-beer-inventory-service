@@ -12,6 +12,9 @@ public class JmsConfig {
 
 
     public static final String NEW_INVENTORY_QUEUE = "newinventory";
+    public static final String ALLOCATE_BEER_ORDER = "allocate-order";
+    public static final String ALLOCATE_BEER_ORDER_RESPONSE = "allocate-order-response";
+
 
     @Bean
     public MessageConverter jacksonJmsMessageConverter(ObjectMapper objectMapper) {

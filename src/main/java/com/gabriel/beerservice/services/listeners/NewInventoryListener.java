@@ -1,4 +1,4 @@
-package com.gabriel.beerservice.services;
+package com.gabriel.beerservice.services.listeners;
 
 
 import com.gabriel.beerservice.domain.BeerInventory;

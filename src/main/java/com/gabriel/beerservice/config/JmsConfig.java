@@ -14,6 +14,7 @@ public class JmsConfig {
     public static final String NEW_INVENTORY_QUEUE = "newinventory";
     public static final String ALLOCATE_BEER_ORDER = "allocate-order";
     public static final String ALLOCATE_BEER_ORDER_RESPONSE = "allocate-order-response";
+    public static final String DEALLOCATE_BEER_ORDER = "deallocate-order";
 
 
     @Bean

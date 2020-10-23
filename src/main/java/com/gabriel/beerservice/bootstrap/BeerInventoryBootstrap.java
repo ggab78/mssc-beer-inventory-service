@@ -27,8 +27,9 @@ public class BeerInventoryBootstrap implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        beerInventoryRepository.deleteAll();
         if(beerInventoryRepository.count() == 0){
-           // loadInitialInv();
+            loadInitialInv();
         }
     }
 
